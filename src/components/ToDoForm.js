@@ -7,7 +7,7 @@ const ToDoForm = () => {
     const dispatch = useDispatch();
     const onFormSubmit = (e) => {
         e.preventDefault();
-        if(!text){
+        if (!text) {
             alert('Missing information')
             return;
         }

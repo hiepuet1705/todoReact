@@ -1,0 +1,16 @@
+.task {
+    background-color: #34495e;
+    padding: 15px;
+    margin: 8px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .task span {
+    color: #fff;
+  }
+
+  .task .icon {
+    float: right;
+    margin-right: 20px;
+  }
