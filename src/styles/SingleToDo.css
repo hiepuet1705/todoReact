@@ -1,16 +1,33 @@
 .task {
     background-color: #34495e;
-    padding: 15px;
+    padding: 16px;
     margin: 8px;
     overflow: hidden;
     border-radius: 10px;
     cursor: pointer;
+    position: relative;
   }
   .task span {
     color: #fff;
   }
 
   .task .icon {
-    float: right;
-    margin-right: 20px;
+    position: absolute;
+    top: 30%;
+    right: 2%;
+    
   }
+  .task .trash {
+    margin-right: 30px;
+  }
+
+  .edit-todo{
+      width: 85%;
+      color: #fff;
+      font-size: 16px;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #fff; 
+  }
+ 
